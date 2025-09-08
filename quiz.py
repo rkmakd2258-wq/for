@@ -6,7 +6,7 @@ sum = 0 #총점을 저장할 변수
 for value in scores.values():
     # 누적, 합 구하는 공식
     sum = sum + value
-    print('합계:', sum)
+print('합계:', sum)
 
 # 2. 학생수 구하기
 print(len(scores))
